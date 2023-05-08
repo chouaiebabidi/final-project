@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+  font-family: 'Alata', sans-serif;
+}
+body {
+  width: 100vw;
+  background-color: white !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.boxcarousel{
+  position: absolute;
+  top: 182px;
+  left: 0px;
+  background-color: #a590cf69;
+  color: #812987;
+  width: 50%;
+  height: 676px;
+  
+}
+.boxc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+.form-signin {
+  max-width: 380px;
+  padding: 50px 35px 50px;
+  margin: 0 auto;
+  background-color: #434242;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  }
+
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  footer {
+    display: flex;
+    background-color: rgb(0, 81, 255);
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .div-box-2{
+    background-color: red;
+    border: 1px grey solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 574px;
+    height: 204px;
+    padding: 44px;
+    border-radius: 3px;
+
+  }
+  .div-box-2 img{
+    width: 100px;
+  }
+  .border-repair{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .image-box{
+    border: solid;
+    border-bottom-color: #f69323;
+    width: 40%;
+  }
+  .experiance-text{
+    background-color: #d7caca;
+    width: 50%;
+    border-radius:3px;
+
+  }
+  .experiance-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .number-years{
+    color: #f69323;
+    font-size: 60px;
+    margin-left:41px;
+ 
+  }
+  .experiance-text h3{
+    font-size: 24px;
+    line-height: 1.2em;
+  
+    text-transform: uppercase;
+    margin:16px;
+    color: black;
+  }
+  .call-us{
+    display: flex;
+    justify-content: space-around;
+  }
+  .call-us h5{
+    border: solid #f69323 -11px;
+    border-radius: 50px;
+    padding: 21px;
+    margin: 34px;
+    width: 30%;
+    background-color: #f69323;
+    height: 57px;
+    /* margin-left: 35px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+  .box{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    width: 100%;
+    margin-top:60px;
+  }
+  .box-cadre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 10px 10px 31px 0px rgba(191,157,157,0.75);
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(191,157,157,0.75);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(191,157,157,0.75);
+    margin:20px;
+
+  }
+  .photo img{
+    width: 200px;
+    height: 198px;
+  }
+  .title{
+    width: 300px;
+    color: black;
+    margin:20px;
+  }
+  .title p{
+    color: black;
+  }
+  .number{
+    display: flex;
+    justify-content: center;
+  }
+  .agent{
+    width: 18%;
+    height: 309px;
+  }
+  .agent img{
+    width: 241px;
+  }
+  .our-agents{
+    display: flex;
+    justify-content: space-around;
+    margin-top:60px
+  }
+  .agent h6{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .icons{
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+margin-right: 40px;
+cursor: pointer;
+  }
+
+  .stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; 
+    object-fit: cover;
+    margin-top: 50px;
+    height: 487px;
+    background-image: url("https://wp.bwlthemes.com/restore_wp/wp-content/uploads/2016/11/counter_bg.jpg");
+    margin-top: 133px;
+  }
+  .stat-content{
+    width: 90%;
+    margin-top: -135px;
+    margin-left: 80px;
+  }
+  .stat-content p{
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .stat-numbers{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .stat-numbers span{
+    font-size: 47px;
+    font-weight: 700;
+  }
+  .numbers-content h4 span{
+    color:#f69323;
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .numbers-content h4{
+    font-weight: 700;
+  }
+  .text-abt-us{
+    width: 50%;
+    margin-top: 90px;
+  }
+  .abt-us{
+  display: flex;
+  justify-content: space-between;
+  }
+  .text-abtus p{
+    width: 57%;
+    margin-left: 142px;
+  }
+  .before-footer{
+    background-color: #f69323;
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    padding: 44px;
+  }
+  .before-footer h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .before-footer h5{
+    cursor: pointer;
+  }
+  .button-bfr{
+   border-top: #d7caca 1px solid;
+   border-bottom: #d7caca 1px solid;
+  }
+  .footer-end{
+    background-size: cover; 
+    object-fit: cover;
+    background-image: url("https://wp.bwlthemes.com/restore_wp/wp-content/uploads/2016/11/counter_bg.jpg");
+    height: 463px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+  }
+
+
+  .footer-box{
+    height: 90%;
+    margin: 10px;
+  }
+
+  .footer-box1{
+    width: 30%;
+    padding: 20px;
+  }
+  .footer-box1 img{
+  margin-bottom: 31px;
+  }
+  .footer-box1 p{
+    margin-bottom: 31px;
+  }
+.delivery-addresses h6{
+  font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+  .footer-box2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-box3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+
+ .footer-box3 .btn{
+  color:#f69323 !important;
+}
+
+  .footer-box3 span{
+    cursor: pointer;
+  }
+
+  .footer-box4{
+    width: 19%;
+  }
+  .contact-us-page{
+    background-size: cover; 
+    object-fit: cover;
+    background-image: url("https://wp.bwlthemes.com/restore_wp/wp-content/uploads/2016/11/counter_bg.jpg");
+    height: 291px;
+  }
+  .contact-us-page h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  .map-map{
+    margin-top: 4px;
+  }
+
+  .formss{
+    height: 200px;
+
+  }
+  .form-1{
+    margin-bottom: 10px;
+    width: 45%;
+    height: 426px;
+  }
+  .form-2{
+    width: 45%;
+    height:330px
+  }
+  .forms-contact{
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-1 form {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    margin-left: 15px;
+  }
+  .form-1 form input{
+    margin-bottom: 10px;
+    color:black
+  }
+  .form-1 form hr{
+    color: black
+   }
+    .form-1 button{
+      width: 99px;
+      height: 40px;
+      margin-left: 16px;
+    }
+    .form-2 span{
+      display: flex;
+      flex-direction: column;
+      color: black;
+    }
+.form-2 span img{
+  width: 22px;
+}
+.title button {
+  background-color: #f69323 ; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.title h6{
+  font-size: 18px;
+}
+.title button:hover{
+  background-color: grey;
+}
+.form-modale{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.form-modale form{
+  width: 29%;
+}
+.form-label{
+  color: black;
+}
+.div-modale{
+  margin: 46px;
+}
+.text-center{
+  margin-left: 182px;
+}
+.button-deletee{
+  width: 30px;
+  color: black
+}
+.trth-list tr th{
+  color: #7575ff
+}
